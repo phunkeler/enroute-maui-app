@@ -1,0 +1,173 @@
+//------------------------------------------------------------------------------
+//
+//  Copyright (c) 2016 Glympse Inc. All rights reserved.
+//
+//------------------------------------------------------------------------------
+
+@interface GlyGCP : NSObject
+{
+}
+
++ (int)AUTH_NOT_LOGGED_IN;
+
++ (int)AUTH_LOGGING_IN;
+
++ (int)AUTH_LOGGED_IN;
+
++ (int)AUTH_FAILED_TO_LOG_IN;
+
++ (int)ENCODING_DEFAULT;
+
++ (int)ENCODING_KEEP_TICKETS;
+
++ (int)ENCODING_KEEP_TRACK;
+
++ (int)CACHE_NONE;
+
++ (int)CACHE_MEMORY;
+
++ (int)CACHE_DISK;
+
++ (int)CACHE_ALL;
+
++ (int)SOCIAL_UNKNOWN_INVITE;
+
++ (int)SOCIAL_AUTHENTICATED;
+
++ (int)SOCIAL_NOT_AUTHENTICATED;
+
++ (int)CONTACT_UNKNOWN;
+
++ (int)CONTACT_PHONE;
+
++ (int)CONTACT_EMAIL;
+
++ (int)CONTACT_POSTAL;
+
++ (int)CONTACT_FACEBOOK;
+
++ (int)PERSON_SORT_BY_LAST_NAME;
+
++ (int)PERSON_SORT_BY_FIRST_NAME;
+
++ (int)PERSON_SORT_BY_FULL_NAME;
+
++ (int)CONTACTS_SEARCH_PHONE;
+
++ (int)CONTACTS_SEARCH_EMAIL;
+
++ (int)CONTACTS_SEARCH_POSTAL;
+
++ (int)CONTACTS_SEARCH_FACEBOOK;
+
++ (int)CONTACTS_SEARCH_INVITE;
+
++ (int)CONTACTS_SEARCH_PLACE;
+
++ (int)ACCOUNT_PROFILE;
+
++ (int)ACCOUNT_HISTORY;
+
++ (int)LINKED_ACCOUNTS;
+
++ (int)EXPIRE_ON_ARRIVAL_GLOBAL;
+
++ (int)SERVER_MODE_PRODUCTION;
+
++ (int)SERVER_MODE_SANDBOX;
+
++ (int)SERVER_MODE_DEVELOPMENT;
+
++ (int)SERVER_MODE_CUSTOM;
+
++ (long long int)CONTEXT_INTERNAL;
+
++ (long long int)CONTEXT_SINK_INVITE_CODE;
+
++ (long long int)CONTEXT_TICKET_RETURN_URL;
+
++ (long long int)CONTEXT_TICKET_RETURN_CANCEL_URL;
+
++ (long long int)CONTEXT_TICKET_FLAGS;
+
++ (long long int)CONTEXT_TICKET_CALLBACK_PACKAGE;
+
++ (long long int)CONTEXT_TICKET_CALLBACK_ACTION;
+
++ (long long int)CONTEXT_TICKET_LAUNCH_MODE;
+
++ (long long int)CONTEXT_TICKET_CONTEXT;
+
++ (NSString*)SOURCE_NEW;
+
++ (NSString*)SOURCE_FAVORITE;
+
++ (NSString*)SOURCE_HISTORY;
+
++ (NSString*)SOURCE_MAP;
+
++ (NSString*)SOURCE_URL;
+
++ (NSString*)SOURCE_REQUEST;
+
++ (NSString*)SOURCE_REPLY;
+
++ (NSString*)SOURCE_INTENT;
+
++ (NSString*)SOURCE_NFC;
+
++ (NSString*)SOURCE_CALENDAR;
+
++ (NSString*)SOURCE_CONTACT_EMAIL;
+
++ (NSString*)SOURCE_CONTACT_SMS;
+
++ (NSString*)SOURCE_CONTACT_ADDRESS;
+
++ (NSString*)SOURCE_API;
+
++ (NSString*)SOURCE_SHORTCUT;
+
++ (NSString*)SOURCE_FAVORITE_VR;
+
++ (NSString*)SOURCE_NEW_VR;
+
++ (NSString*)SOURCE_HISTORY_VR;
+
++ (NSString*)SOURCE_WRU_SMS;
+
++ (NSString*)PUSH_APPLE_VOIP;
+
++ (int)BUILD_STATUS_NONE;
+
++ (int)BUILD_STATUS_DEV;
+
++ (int)BUILD_STATUS_ALPHA;
+
++ (int)BUILD_STATUS_BETA;
+
++ (int)BUILD_STATUS_RC;
+
++ (int)BUILD_STATUS_RELEASE;
+
++ (int)TICKET_STATE_PRE_VALID;
+
++ (int)ARG_IGNORE;
+
++ (int)ARG_CLEAR;
+
++ (int)ARG_SET;
+
++ (int)METHOD_ARGUMENT_TYPE_STRING;
+
++ (int)METHOD_ARGUMENT_TYPE_INT;
+
++ (int)METHOD_ARGUMENT_TYPE_LONG;
+
++ (int)METHOD_ARGUMENT_TYPE_FLOAT;
+
++ (int)METHOD_ARGUMENT_TYPE_DOUBLE;
+
++ (int)METHOD_ARGUMENT_TYPE_BOOL;
+
+@end
